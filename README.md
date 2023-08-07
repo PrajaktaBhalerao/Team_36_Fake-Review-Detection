@@ -56,16 +56,17 @@ Texual attributes like review_date,review_title,review_text,review_rating,verifi
 
    
 
-4. Feature Extraction:
-   - After performing EDA came to conclusion that only few columns are relevant to the problem statement hence kept that columns
-   - Dropped the unsused column from Dataset.
+4. Re-Check NUll and Duplicates:
+  Since we have removed the other columns and all we have left are the review_centric values, we need to double check on whether there are duplicated reviews 
+  within the dataset
+5.EDA on Review Text:
+Here certain columns were added to understand certain instances the sentences have. Those include the counts of:Word,Characters (with spaces),Stopwords,Punctuations,Uppercase characters.After the columns are added, necessary summary statistics will be conducted to get an idea on how the pre-processing will take place.
 
-
-5. Model Training:
+6. Model Training:
    - Divide the preprocessed data into training and testing sets.
    - Implement Multinomial Naive Bayes, Support Vector Machine, and Logistic Regression algorithms separately for training on the features extracted from the training set.
 
-6. Model Evaluation:
+7. Model Evaluation:
    - Evaluate the performance of each model using appropriate metrics like accurracy , recall , precision.
 
 
