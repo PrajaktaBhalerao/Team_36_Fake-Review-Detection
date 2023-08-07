@@ -16,11 +16,9 @@ Through this project, we aspire to create a solution that can help enhance the s
 
 2. Data Preprocessing:
    - Cleaned the dataset by removing special characters, stopwords , null values and removed duplicate values .
-   - Tokenize the text into individual words or tokens.
    - Done EDA.
 
 3. Feature Extraction:
-   - Utilize Vectorization.
    - After performing EDA came to conclusion that only few columns are relevant to the problem statement hence kept that columns
    - Dropped the unsused column from Dataset.
 
