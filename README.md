@@ -30,7 +30,9 @@ Following steps were performed for doing above operations:
     definately be dropped.
     dimension 7 has 2 missing values, and from above it can be seen that it contains just an extra info on the product.
     ## There are no NULL values for review_rating, review_text, and verified_purchase, which are the main attributes needed for the analysis.
-EDA
+Non-texual attributes are giving the extra information about the product.
+Texual attributes like review_date,review_title,review_text,review_rating,verified_purchase used for understanding in EDA process.
+
 Dropping of columns which are not necessary for model building
 Saving final dataframe to csv.
 
