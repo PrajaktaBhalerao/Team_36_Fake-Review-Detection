@@ -49,12 +49,12 @@ Texual attributes like review_date,review_title,review_text,review_rating,verifi
    we found that unvarified reviews were more in skin care,skin cleansing,personal care and dressing (Personal care category)
    Laundry happens to be the place with the most number of purchases and the highest number of verified purchases, which adds up to the graph above where this 
    sub-cateogory falls under the Home care category.
-   
-Dropping of columns which are not necessary for model building
-Saving final dataframe to csv.
+ -Average Length of reviews based on verified purchase
+   One of the key takeaways from this graph is the fact that the average length of the false values happened to exceed the ones which are flagged as verified.
+ -Dropping of columns which are not necessary for model building
+ -Saving final dataframe to csv.
 
-   - Cleaned the dataset by removing special characters, stopwords , null values and removed duplicate values .
-   - Done EDA.
+   
 
 4. Feature Extraction:
    - After performing EDA came to conclusion that only few columns are relevant to the problem statement hence kept that columns
