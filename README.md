@@ -42,6 +42,14 @@ Texual attributes like review_date,review_title,review_text,review_rating,verifi
  -Pie-chart On Verified Purchase:
   Verified_purchases column is the target variable for this project. From Pie-chart we conclude that,there are near equal parts of true VP and 
   false VP (56% and 44% respectively).
+ -Countplot of Review Rating Grouped By Verified Purchase:
+   Overall, it can be seen that majority of the ratings within this dataset to be positive, and hence should be kept in mind whilst proceeding with the model 
+  building
+ -Plot for Count of Product Categories:
+   we found that unvarified reviews were more in skin care,skin cleansing,personal care and dressing (Personal care category)
+   Laundry happens to be the place with the most number of purchases and the highest number of verified purchases, which adds up to the graph above where this 
+   sub-cateogory falls under the Home care category.
+   
 Dropping of columns which are not necessary for model building
 Saving final dataframe to csv.
 
