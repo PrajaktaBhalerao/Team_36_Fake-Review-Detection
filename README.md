@@ -1,5 +1,11 @@
+
 # Team_36_Fake-Review-Detection
 Walmart Hackathon Project
+
+Video Link:
+
+[https://drive.google.com/drive/folders/1NP7NCZFb23xOoXfEdoXpII3gkkgLJt9-?usp=sharing]
+
 
 ## Abstract
 In the Walmart hackathon, our project focuses on developing a robust fake reviews detection system to address the growing issue of deceptive and misleading product reviews. 
@@ -141,10 +147,6 @@ Recall
 F1_score
 
 confusion matrix
-
-Video Link:
-
-[https://drive.google.com/drive/folders/1NP7NCZFb23xOoXfEdoXpII3gkkgLJt9-?usp=sharing]
 
 
 
