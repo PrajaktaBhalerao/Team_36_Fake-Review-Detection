@@ -19,7 +19,7 @@ Through this project, we aspire to create a solution that can help enhance the s
 
 3. Feature Extraction:
    - Utilize Vectorization.
-   - After performing EDA came to conclusion that only few columns are relevant to the problem ststement hence kept that columns
+   - After performing EDA came to conclusion that only few columns are relevant to the problem statement hence kept that columns
    - Dropped the unsused column from Dataset.
 
 
