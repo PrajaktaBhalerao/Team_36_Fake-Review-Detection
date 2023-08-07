@@ -59,8 +59,14 @@ Texual attributes like review_date,review_title,review_text,review_rating,verifi
 4. Re-Check NUll and Duplicates:
   Since we have removed the other columns and all we have left are the review_centric values, we need to double check on whether there are duplicated reviews 
   within the dataset
+
 5.EDA on Review Text:
-Here certain columns were added to understand certain instances the sentences have. Those include the counts of:Word,Characters (with spaces),Stopwords,Punctuations,Uppercase characters.After the columns are added, necessary summary statistics will be conducted to get an idea on how the pre-processing will take place.
+-Here certain columns were added to understand certain instances the sentences have. Those include the counts of:Word,Characters (with spaces),Stopwords,Punctuations,Uppercase characters.After the columns are added, necessary summary statistics will be conducted to get an idea on how the pre-processing will take place.
+-After dropping the duplicates, we can see that the percentages of the True and False values are still near equal, and hence we can say that the dataset is balanced. Taking a closer look into the graph, there are more False values and True values within the dataset now.
+
+6.Preprocessing:
+-Text preprocessing is a technique for cleaning text data and preparing it for use in a model. Text data comprises noise in the form of emotions, punctuation, and text in a different case, among other things.
+-Machines cannot comprehend words; they want numbers, thus we must convert text to numbers efficiently.
 
 6. Model Training:
    - Divide the preprocessed data into training and testing sets.
