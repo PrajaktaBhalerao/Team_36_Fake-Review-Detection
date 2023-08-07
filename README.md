@@ -23,7 +23,13 @@ Following steps were performed for doing above operations:
  1.Shape of the dataset is studied, and the columns are seen in details. 
  2.Data description and Summary Statistics: analyzed statistic of each and evry attribute for EDA process.
  3.Normalization of data to support EDA analysis  -
- 4.Checking for NULL and Duplicates:
+ 4.Checking for NULL and Duplicates: There are NULL values within this dataset which needs to be taken care of.
+    review_title has 98 NULL values, which is the minority considering there are over 2k records.
+    URL has 800+ missing values, which can be ignored since this is not significant to the nature of our project
+    matched_keywords, time_of_publication, manufacturers_response, dimension4, dimension5, dimension6 don't have any values in them, and hence will most 
+    definately be dropped.
+    dimension 7 has 2 missing values, and from above it can be seen that it contains just an extra info on the product.
+    ## There are no NULL values for review_rating, review_text, and verified_purchase, which are the main attributes needed for the analysis.
 EDA
 Dropping of columns which are not necessary for model building
 Saving final dataframe to csv.
