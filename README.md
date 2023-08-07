@@ -19,6 +19,15 @@ Through this project, we aspire to create a solution that can help enhance the s
  At the end of the notebook, the columns were dropped, and the only columns kept were review_text and verified_purchase, 
  where they were saved inside a csv file, so we can conduct the EDA and Data Pre-processing on the textual data present.
 
+Following steps were performed for doing above operations:
+ 1.Shape of the dataset is studied, and the columns are seen in details. 
+ 2.Data description and Summary Statistics: analyzed statistic of each and evry attribute for EDA process.
+ 3.Normalization of data to support EDA analysis  -
+ 4.Checking for NULL and Duplicates:
+EDA
+Dropping of columns which are not necessary for model building
+Saving final dataframe to csv.
+
    - Cleaned the dataset by removing special characters, stopwords , null values and removed duplicate values .
    - Done EDA.
 
