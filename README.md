@@ -67,6 +67,7 @@ Texual attributes like review_date,review_title,review_text,review_rating,verifi
 6.Preprocessing:
 -Text preprocessing is a technique for cleaning text data and preparing it for use in a model. Text data comprises noise in the form of emotions, punctuation, and text in a different case, among other things.
 -Machines cannot comprehend words; they want numbers, thus we must convert text to numbers efficiently.
+-The review_text is going to be cleaned and standardized so that when implemented within the model, the model can be optimized at its best. This step takes the longest since it is in base of trial and error.
 
 6. Model Training:
    - Divide the preprocessed data into training and testing sets.
