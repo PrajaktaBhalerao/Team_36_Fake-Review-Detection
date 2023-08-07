@@ -11,10 +11,8 @@ Through this project, we aspire to create a solution that can help enhance the s
 ## About Project
 1. Data Collection:
    - Used Amazon-Review-Dataset from kaggle.
-   - Dataset is focused on PRODUCT and REVIEWS and not REVIEWERS.
-   - Contains 2500 cells and 32 attributes.
-
-2. Data Preprocessing:
+     
+2. Data Extraction & Preprocessing:
    - Cleaned the dataset by removing special characters, stopwords , null values and removed duplicate values .
    - Done EDA.
 
