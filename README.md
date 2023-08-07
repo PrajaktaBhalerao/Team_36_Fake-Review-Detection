@@ -77,7 +77,6 @@ Texual attributes like review_date,review_title,review_text,review_rating,verifi
      to penalize them. The word counts are weighted by a measure of how frequently they appear in the documents in TfidfVectorizer.
 
 
-
 7. Model Evaluation:
    - Evaluate the performance of each model using appropriate metrics like accurracy , recall , precision.
 
