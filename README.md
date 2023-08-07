@@ -33,6 +33,15 @@ Following steps were performed for doing above operations:
 Non-texual attributes are giving the extra information about the product.
 Texual attributes like review_date,review_title,review_text,review_rating,verified_purchase used for understanding in EDA process.
 
+3.Explonatory Data Analysis(EDA):
+  -plot for helpful_review_count:  
+   which can aid us in understanding the reviews those helped users in purchases a product
+   From that, we conclude that,out of 2000 reviews 0 review was helpful,out of 150, 1 review was helpful and out of 10 reviews 6 reviews were helpful.
+   In this case, this will actually skew our understanding in identifying which reviews are fake and which ones are real, and therefore to eliminate bias,this 
+   column will not be considered for our model building.
+ -Pie-chart On Verified Purchase:
+  Verified_purchases column is the target variable for this project. From Pie-chart we conclude that,there are near equal parts of true VP and 
+  false VP (56% and 44% respectively).
 Dropping of columns which are not necessary for model building
 Saving final dataframe to csv.
 
