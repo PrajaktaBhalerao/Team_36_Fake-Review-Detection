@@ -13,19 +13,25 @@ Through this project, we aspire to create a solution that can help enhance the s
    - Used Amazon-Review-Dataset from kaggle.
      
 2. Data Extraction & Preprocessing:
+   The initial dataset downloaded from Kaggle had 32 columns, where it had more than enough information. Upon further analysis, 
+ the information within the dataset was focused more on the (1) product and (2) the reviews and not so much on the reviewer themselves, 
+ and hence it was subsequently concluded that this project will take the lingusitics approach to the fake review detection problem, and not behavioral.
+ At the end of the notebook, the columns were dropped, and the only columns kept were review_text and verified_purchase, 
+ where they were saved inside a csv file, so we can conduct the EDA and Data Pre-processing on the textual data present.
+
    - Cleaned the dataset by removing special characters, stopwords , null values and removed duplicate values .
    - Done EDA.
 
-3. Feature Extraction:
+4. Feature Extraction:
    - After performing EDA came to conclusion that only few columns are relevant to the problem statement hence kept that columns
    - Dropped the unsused column from Dataset.
 
 
-4. Model Training:
+5. Model Training:
    - Divide the preprocessed data into training and testing sets.
    - Implement Multinomial Naive Bayes, Support Vector Machine, and Logistic Regression algorithms separately for training on the features extracted from the training set.
 
-5. Model Evaluation:
+6. Model Evaluation:
    - Evaluate the performance of each model using appropriate metrics like accurracy , recall , precision.
 
 
