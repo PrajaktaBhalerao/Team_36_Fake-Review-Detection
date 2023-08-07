@@ -54,8 +54,6 @@ Texual attributes like review_date,review_title,review_text,review_rating,verifi
  -Dropping of columns which are not necessary for model building
  -Saving final dataframe to csv.
 
-   
-
 4. Re-Check NUll and Duplicates:
   Since we have removed the other columns and all we have left are the review_centric values, we need to double check on whether there are duplicated reviews 
   within the dataset
@@ -71,7 +69,14 @@ Texual attributes like review_date,review_title,review_text,review_rating,verifi
 
 6. Model Training:
    - Divide the preprocessed data into training and testing sets.
-   - Implement Multinomial Naive Bayes, Support Vector Machine, and Logistic Regression algorithms separately for training on the features extracted from the training set.
+   - Implement Multinomial Naive Bayes, Support Vector Machine, and Logistic Regression algorithms separately for training on the features extracted from the 
+     training set.
+   -Count Vectorizer:word vectorization maps words or phrases from a lexicon to a matching vector of real numbers, which may then be used to determine word 
+     predictions and semantics, and this is done due to the fact that models only understand numerical data.
+   -TFIDF Vectorizer:We examine the total document weightage of a word in TfidfVectorizer. It assists us in coping with the most common terms. We may use it 
+     to penalize them. The word counts are weighted by a measure of how frequently they appear in the documents in TfidfVectorizer.
+
+
 
 7. Model Evaluation:
    - Evaluate the performance of each model using appropriate metrics like accurracy , recall , precision.
